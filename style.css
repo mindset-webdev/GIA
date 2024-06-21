@@ -1,0 +1,97 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    color: blue;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+.showcase {
+    background: url('church.jpg') no-repeat center center/cover;
+    height: 300px;
+    text-align: center;
+    color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.showcase h1 {
+    font-size: 3em;
+}
+.logo {
+    position: relative;
+    display: block;
+    justify-content: left;
+    align-items: left;
+}
+.section {
+    padding: 20px 0;
+    margin: 20px 0;
+    text-align: left;
+    color: blue;
+}
+
+.section h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.section p {
+    font-size: 1.2em;
+    color: blue;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    color: blue;
+}
+.social-icons {
+display: flex;
+}
+.social-icons a {
+display: inline-block;
+margin-right: 10px;
+}
+.social-icons img {
+    width: 40px;
+    height: 40px;
+}
+
+footer p {
+    margin: 0;
+}
+img {
+    display: block;
+    margin: 0 auto;
+    transition: 0.3s; 
+    border-radius: 8px;
+    height: auto;
+    width: 70%;
+}
